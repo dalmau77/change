@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Change Calculator</title>
-  </head>
-  <body>
-    <!-- Write your markup here -->
 
-    <!-- Don't forget to add your <script> tag here -->
+<head>
+  <meta charset="utf-8">
+  <title>Change Calculator</title>
+  <link rel="stylesheet" href="main.css">
+</head>
 
-  </body>
+<body>
+  <!-- Write your markup here -->
+  <h1>Change Calculator</h1>
+
+  <div class="form-inline">
+    <div id="money-due">
+      <h4>How much is due for sale?</h4>
+      <input type="number" step="0.01" id="amount-due">
+    </div>
+    <div id="money-given">
+      <h4>How much has customer given?</h4>
+      <input type="number" id="amount-received">
+      <button id="calculate-change">Calculate Change</button>
+    </div>
+
+  </div>
+  <div id="dollars">
+    <h1>Dollars</h1>
+    <p id="dollars-output">0</p>
+  </div>
+  <div id="change" class="card box">
+    <h1>Quarters</h1>
+    <p id="quarters-output">0</p>
+    <h1>Dimes</h1>
+    <p id="dimes-output">0</p>
+    <h1>Nickels</h1>
+    <p id="nickels-output">0</p>
+    <h1>Pennies</h1>
+    <p id="pennies-output">0</p>
+  </div>
+  <!-- Don't forget to add your <script> tag here -->
+  <script src="main.js"></script>
+</body>
+
 </html>

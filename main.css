@@ -1,0 +1,36 @@
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 5px 10px 5px 0;
+  }
+#dollars {
+    text-align: center;
+    border: solid;
+}
+
+.box {
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.form-inline h4 {
+    margin: 5px 10px 5px 0;
+  }
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    
+  }
+  #forms {
+      text-align: center;
+  }
+
+  input {
+      width: 40vw;
+
+  }
